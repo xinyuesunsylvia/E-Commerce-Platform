@@ -1,5 +1,7 @@
 ## E-Commerce Platform
-This is a full-stack e-commerce platform meticulously crafted using leading-edge technologies. The front-end boasts interactive user interfaces, engineered with JavaScript and React, and seamlessly integrates with state management through Redux. The back-end, built on Node.js and Express.js, efficiently manages data transactions, while MongoDB ensures reliable and scalable data storage. This comprehensive solution offers a seamless shopping experience, ensuring robust performance and user-friendly interactions throughout.
+This is a full-stack e-commerce platform meticulously crafted using leading-edge technologies. The front-end boasts interactive user interfaces, engineered with **JavaScript** and **React**, and seamlessly integrates with state management through **Redux**. The back-end, built on **Node.js** and **Express.js**, efficiently manages data transactions, while **MongoDB** ensures reliable and scalable data storage. This comprehensive solution offers a seamless shopping experience, ensuring robust performance and user-friendly interactions throughout.
+
+
 <img width="500" alt="preview" src="https://github.com/xinyuesunsylvia/React-ShoppingCart-Frontend/assets/109255165/cecff0c6-074e-4300-aff8-1c45c390c6ae">
 
 
