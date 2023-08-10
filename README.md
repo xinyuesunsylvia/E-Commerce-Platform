@@ -1,10 +1,8 @@
 This is a full-stack e-commerce platform meticulously crafted using leading-edge technologies. The front-end boasts interactive user interfaces, engineered with JavaScript and React, and seamlessly integrates with state management through Redux. The back-end, built on Node.js and Express.js, efficiently manages data transactions, while MongoDB ensures reliable and scalable data storage. This comprehensive solution offers a seamless shopping experience, ensuring robust performance and user-friendly interactions throughout.
-<img width="375" alt="preview" src="https://github.com/xinyuesunsylvia/React-ShoppingCart-Frontend/assets/109255165/c72fb60b-3632-459e-abf9-d82040dcde64">
+<img width="500" alt="preview" src="https://github.com/xinyuesunsylvia/React-ShoppingCart-Frontend/assets/109255165/cecff0c6-074e-4300-aff8-1c45c390c6ae">
 
 
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -13,7 +11,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3002](http://localhost:3002) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
