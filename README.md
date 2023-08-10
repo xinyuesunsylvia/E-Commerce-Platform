@@ -1,5 +1,6 @@
+This is a full-stack e-commerce platform meticulously crafted using leading-edge technologies. The front-end boasts interactive user interfaces, engineered with JavaScript and React, and seamlessly integrates with state management through Redux. The back-end, built on Node.js and Express.js, efficiently manages data transactions, while MongoDB ensures reliable and scalable data storage. This comprehensive solution offers a seamless shopping experience, ensuring robust performance and user-friendly interactions throughout.
+<img width="898" alt="preview" src="https://github.com/xinyuesunsylvia/React-ShoppingCart-Frontend/assets/109255165/c72fb60b-3632-459e-abf9-d82040dcde64">
 
-<img width="971" alt="截屏2023-08-09 下午7 37 54" src="https://github.com/xinyuesunsylvia/React-ShoppingCart-Frontend/assets/109255165/1742fc7c-e992-4bc2-8c90-fa8d1b8c77f3">
 
 # Getting Started with Create React App
 
