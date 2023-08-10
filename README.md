@@ -1,3 +1,6 @@
+
+<img width="971" alt="截屏2023-08-09 下午7 37 54" src="https://github.com/xinyuesunsylvia/React-ShoppingCart-Frontend/assets/109255165/1742fc7c-e992-4bc2-8c90-fa8d1b8c77f3">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,6 +71,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Project2
-# E-Commerce-Platform
-# E-Commerce-Platform
+
