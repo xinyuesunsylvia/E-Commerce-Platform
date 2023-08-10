@@ -12,7 +12,6 @@ const ModalOverlay = (props) => {
   return (
     <div className="modal">
       <header>
-        {/* <h2 id="title">{props.headerText}</h2> */}
         <button className="close-button" onClick={props.onClose}>
           X
         </button>
@@ -32,9 +31,8 @@ const Modal = (props) => {
         portalElement
       )}
       {ReactDOM.createPortal(
-        <ModalOverlay headerText={props.headerText} onClose={props.onClose}>
-          {props.children}
-        </ModalOverlay>,
+        // <ModalOverlay headerText={props.headerText} onClose={props.onClose}>
+        <ModalOverlay onClose={props.onClose}>{props.children}</ModalOverlay>,
         portalElement
       )}
     </Fragment>
@@ -42,7 +40,7 @@ const Modal = (props) => {
 };
 
 Modal.propTypes = {
-  headerText: PropTypes.string.isRequired,
+  // headerText: PropTypes.string.isRequired,
   onClose: PropTypes.func.isRequired,
   children: PropTypes.node.isRequired,
 };

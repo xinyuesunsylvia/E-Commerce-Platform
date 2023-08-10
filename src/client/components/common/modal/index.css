@@ -10,12 +10,12 @@
 
 .modal {
   position: fixed;
-  top: 20vh;
+  top: 100px;
   left: 5%;
   width: 90%;
   height: auto;
   background-color: white;
-  padding: 1rem;
+  padding: none;
   border-radius: 14px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   z-index: 30;
@@ -24,19 +24,15 @@
 
 .close-button {
   position: absolute;
-  top: 0.5rem; /* 自定义距离顶部的距离 */
-  right: 0.5rem; /* 自定义距离右侧的距离 */
+  top: 0.5rem;
+  right: 0.5rem;
   background: none;
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
-  align-self: flex-end; /* 将按钮放置在右上角 */
+  align-self: flex-end;
+  color: black;
 }
-
-/* #title {
-  display: flex;
-  justify-content: center;
-} */
 
 @media (min-width: 768px) {
   .modal {
@@ -47,12 +43,23 @@
 
 @media (max-width: 767px) {
   .modal {
-    width: 35rem;
-    left: calc(50% - 15rem);
+    min-width: 100px;
+    left: 10px;
+  }
+  .close-button {
+    position: absolute;
+    top: 0;
+    right: 0.5rem;
+    background: none;
+    border: none;
+    font-size: 0.5rem;
+    cursor: pointer;
+    align-self: flex-end;
+    color: black;
   }
 }
 
-@keyframes slide-down {
+/* @keyframes slide-down {
   from {
     opacity: 0;
     transform: translateY(-3rem);
@@ -61,4 +68,4 @@
     opacity: 1;
     transform: translateY(0);
   }
-}
+} */

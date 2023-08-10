@@ -1,0 +1,19 @@
+.oops-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.oops {
+  margin-top: 15rem;
+}
+.oops-button {
+  background-color: rgb(58, 58, 237);
+  color: white;
+}
+@media (max-width: 767px) {
+  .oops {
+    margin-left: 1rem;
+    align-items: center;
+  }
+}

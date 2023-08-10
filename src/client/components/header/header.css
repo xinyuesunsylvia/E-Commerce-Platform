@@ -1,26 +1,68 @@
 .header {
   background-color: black;
-  display: flex; /* 设置为 Flexbox 布局 */
-  align-items: center; /* 在交叉轴上居中对齐元素 */
-  padding: 10px; /* 可根据需要设置内边距 */
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  height: 70px;
 }
 
 .header h3 {
+  margin-left: 3rem;
+  color: white;
+  font-size: 20px;
+}
+
+.header-input-option {
   margin-left: 5rem;
-  color: white; /* 设置标题文字颜色为白色 */
-  margin-right: auto; /* 将标题推到左侧，并将其他元素推到右侧 */
+  width: 40%;
+  /* min-width: 25rem; */
+}
+.header-login {
+  flex: 1;
+  margin-left: 5rem;
+  margin-right: 2rem;
+  color: white;
+  background-color: transparent;
+  width: 30rem;
 }
 
-.header input {
-  /* 设置搜索输入框的样式 */
-  flex: 1; /* 占据剩余的空间 */
-  margin-left: 7rem;
-  margin-right: 1rem; /* 设置右侧间距 */
-}
-
-.header button {
-  background-color: transparent; /* 设置背景颜色为透明 */
-  border: none; /* 移除按钮的边框 */
+.header-cart-button {
+  background-color: transparent;
+  border: none;
   color: white;
   margin-right: 2rem;
+}
+
+@media (max-width: 767px) {
+  .header {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    flex-grow: 1;
+  }
+
+  .header h3 {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+  }
+  .header-input-option {
+    margin-left: 1rem;
+    width: 3rem;
+    max-width: 5rem;
+  }
+  .header-login {
+    flex: 1;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    color: white;
+    background-color: transparent;
+    width: 3rem;
+  }
+
+  .header-cart-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-right: 2rem;
+  }
 }

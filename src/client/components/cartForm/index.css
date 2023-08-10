@@ -1,0 +1,235 @@
+.cart-products {
+  display: flex;
+  justify-content: flex-end;
+}
+.cart-title {
+  padding: 15px 10px 10px 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #008cba;
+  color: white;
+  height: 50px;
+  margin-bottom: 1rem;
+}
+.cart-title-name {
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 7px;
+}
+.cart-total-num {
+  font-size: 15px;
+  font-weight: bold;
+}
+.pagination-cart {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 0.5rem;
+  gap: 5px;
+}
+
+.pagination-cart .page-num-cart {
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 0.5rem;
+  color: rgb(52, 52, 52);
+}
+
+.pagination-cart .page-num-cart:hover {
+  background-color: #008cba;
+  color: white;
+}
+.pagination-cart .active {
+  background-color: #008cba;
+}
+.discount-code {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(202, 199, 199);
+}
+.discount-tilte {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(116, 113, 113);
+  margin-left: 3rem;
+  margin-bottom: none;
+}
+.discount-apply {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: none;
+}
+.dicount-input {
+  width: 300px;
+  height: 10px;
+  border: 1px solid rgb(202, 199, 199);
+  margin-left: 3rem;
+}
+.discount-apply-button {
+  margin-right: 3rem;
+  margin-bottom: 1.5rem;
+  background-color: #008cba;
+  color: white;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 0.25rem;
+}
+.total-price,
+.total-tax,
+.total-discount,
+.total-estimated-total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: bold;
+}
+.total-price-title,
+.tax-title,
+.discount-title,
+.estimated-total-title {
+  margin-left: 3rem;
+}
+.total-price-num,
+.tax-num,
+.discount-num,
+.estimated-total-num {
+  margin-right: 3rem;
+}
+.cart-check-out-button {
+  width: 20rem;
+
+  padding: 25px 2px 25px 2px;
+  background-color: #008cba;
+  font-size: 15px;
+  color: white;
+  line-height: 1px;
+  margin-top: 1rem;
+  margin-left: 8rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .cart-title {
+    padding: 10px 5px 10px 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #008cba;
+    color: white;
+    height: 20px;
+    margin-bottom: 1rem;
+    border-radius: 0.2rem;
+  }
+  .cart-title-name {
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 7px;
+  }
+  .cart-total-num {
+    font-size: 7px;
+    font-weight: bold;
+  }
+  .pagination-cart {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 5px;
+    gap: 5px;
+  }
+
+  .pagination-cart .page-num-cart {
+    padding: 3px 7px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 5px;
+    color: rgb(52, 52, 52);
+  }
+
+  .pagination-cart .page-num-cart:hover {
+    background-color: #008cba;
+    color: white;
+  }
+  .pagination-cart .active {
+    background-color: #008cba;
+  }
+  .discount-code {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(202, 199, 199);
+  }
+  .discount-tilte {
+    font-size: 5px;
+    font-weight: bold;
+    color: rgb(116, 113, 113);
+    margin-left: 1rem;
+    margin-bottom: 0;
+  }
+  .discount-apply {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: none;
+  }
+  .dicount-input {
+    width: 100px;
+    height: 1px;
+    border: 1px solid rgb(202, 199, 199);
+    margin-left: 1rem;
+  }
+  .discount-apply-button {
+    margin-right: 2rem;
+    margin-bottom: 1.5rem;
+    background-color: #008cba;
+    color: white;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 0.25rem;
+    font-size: 3px;
+  }
+  .total-price,
+  .total-tax,
+  .total-discount,
+  .total-estimated-total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 5px;
+    font-weight: bold;
+  }
+  .total-price-title,
+  .tax-title,
+  .discount-title,
+  .estimated-total-title {
+    margin-left: 1rem;
+  }
+  .total-price-num,
+  .tax-num,
+  .discount-num,
+  .estimated-total-num {
+    margin-right: 1rem;
+  }
+  .cart-check-out-button {
+    width: 15rem;
+
+    padding: 20px 2px 20px 2px;
+    background-color: #008cba;
+    font-size: 15px;
+    color: white;
+    line-height: 1px;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+}

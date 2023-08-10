@@ -1,20 +1,21 @@
 import React, { Fragment } from "react";
-import "./App.css";
-// import { Login } from "./components/login";
-// import { Signup } from "./components/signup";
+
 import Header from "./components/header/header";
-import Modal from "./components/common/modal";
 import Home from "./components/home";
-import Login from "./components/login";
-import Signup from "./components/signup";
-import ResetPassword from "./components/resetPassword";
 import Footer from "./components/footer";
+
+import "./App.css";
+import ErrorBoundary from "./components/errorBoundary";
 
 function App() {
   return (
     <Fragment>
       <Header />
-      <Home />
+      <main>
+        <ErrorBoundary>
+          <Home />
+        </ErrorBoundary>
+      </main>
       <Footer />
     </Fragment>
   );
